@@ -1,0 +1,111 @@
+:root {
+    --main-bg-color:#F5F4EF;
+    --title-article-color:#313130;
+    --button-bg-color:#C4C3BF;
+    --button-letter-color:#F5F4EF;
+    --nav-home-color:#626260;
+    --nav-project-color:#4B4E5A;
+    --nav-me-color:#6C5753;
+    --nav-contact-color:#6A5736;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color:var(--main-bg-color);
+}
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li { 
+    padding: 60px 100px;
+    list-style-type: none;
+    font-size: 20px;
+}
+li:hover {
+    font-size: 25px;
+}
+.nav_home {
+    color:var(--nav-home-color);
+}
+.nav_project {
+    color:var(--nav-project-color);
+}
+.nav_me {
+    color:var(--nav-me-color);
+}
+.nav_contact {
+    color:var(--nav-contact-color);
+}
+.main_info {
+    width: 100%;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding:30px 250px;
+}
+.intro {
+    width: 65%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding:40px 0px 40px 150px;
+    /* margin-left: 160px; */
+}
+h1 {
+    font-size:56px;
+    color: var(--title-article-color);
+    margin-bottom:20px;
+}
+h4 {
+    font-size: 26px;
+    color: var(--title-article-color);
+    margin-bottom: 40px;
+}
+p {
+    font-size: 18px;
+    color: var(--title-article-color);
+    margin-bottom: 80px;
+}
+button {
+    width: 180px;
+    height: 50px;
+    font-size: 23px;
+    color:var(--button-letter-color);
+    background-color: var(--button-bg-color);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 6px 5px #636262;
+}
+button:active {
+    background-color:#72716f ;
+    box-shadow: none;
+}
+.avator {
+    width: 35%;
+    margin-bottom: 200px;
+    background-image: url(../../avator/avatar.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+
+}

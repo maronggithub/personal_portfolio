@@ -1,0 +1,18 @@
+:root {
+    --main-bg-color: #F5F4EF;
+    --title-article-color: #313130;
+    --blue-block-bg-color:#BCC3E2;
+    --block-letter-color1:#4B4E5A;
+    --block-letter-color2:#F5F4EF;
+    --left-button-bg-color: #F5F4EF;
+    --right-button-bg-color: #717588;
+    --left-button-letter-color: #4B4E5A;
+    --right-button-letter-color: #F5F4EF;
+    --left-button-border-color: #717588;
+    --right-button-border-color: #F5F4EF;
+    --button-shadow-color:#313130;
+    --nav-home-color: #626260;
+    --nav-project-color: #4B4E5A;
+    --nav-me-color: #6C5753;
+    --nav-contact-color: #6A5736;
+}
