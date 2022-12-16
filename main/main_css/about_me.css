@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Sans+JP:wght@200;300;400&family=Rubik:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap');
+
 :root {
     --main-bg-color: #F5F4EF;
     --title-article-color: #313130;
@@ -11,4 +14,59 @@
     --nav-project-color: #4B4E5A;
     --nav-me-color: #6C5753;
     --nav-contact-color: #6A5736;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+.nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    padding: 60px 100px;
+    list-style-type: none;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Chivo Mono', monospace;
+}
+
+li:hover {
+    font-size: 25px;
+}
+
+.nav_home {
+    color: var(--nav-home-color);
+}
+
+.nav_project {
+    color: var(--nav-project-color);
+}
+
+.nav_me {
+    color: var(--nav-me-color);
+}
+
+.nav_contact {
+    color: var(--nav-contact-color);
 }

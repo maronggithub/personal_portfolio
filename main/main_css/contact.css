@@ -1,8 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Rubik:wght@400;500;700&display=swap');
+
 :root {
     --main-bg-color:#F5F4EF;
-    --title-article-color:#313130;
+    --title-article-color:#6A5736;
     --nav-home-color:#626260;
     --nav-project-color:#4B4E5A;
     --nav-me-color:#6C5753;
     --nav-contact-color:#6A5736;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color:var(--main-bg-color);
+}
+
+.nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li { 
+    padding: 60px 100px;
+    list-style-type: none;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Chivo Mono', monospace;
+}
+li:hover {
+    font-size: 25px;
+}
+.nav_home {
+    color:var(--nav-home-color);
+}
+.nav_project {
+    color:var(--nav-project-color);
+}
+.nav_me {
+    color:var(--nav-me-color);
+}
+.nav_contact {
+    color:var(--nav-contact-color);
+}
+
+.main {
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact_info {
+    position: relative;
+    padding:40px;
+    width:60%;
+    margin:0 auto;
+}
+.contact_info h1 {
+    font-size: 56px;
+    transform: translateX(-300px);
+    margin-top: 40px;
+    margin-bottom: 90px;
+    color: var(--title-article-color);
+    font-weight: 800;
+    font-family: 'Chivo Mono', monospace;
+}
+.info_list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color:var(--title-article-color);
+    font-family: 'Chivo Mono', monospace;
+}
+.icon {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.title {
+    margin-bottom: 10px;
+}
+.emi_pic {
+    position: absolute;
+    background-image: url(../../image/email.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    top: 75px;
+    right: 30px;
+    height: 180px;
+    width: 120px;
 }
