@@ -14,6 +14,7 @@
     --nav-project-color: #4B4E5A;
     --nav-me-color: #6C5753;
     --nav-contact-color: #6A5736;
+    --box-shadow: #777676;
 }
 
 * {
@@ -111,6 +112,11 @@ li:hover {
     color: var(--title-article-color);
     font-family: 'Chivo Mono', monospace;
 }
+.box {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px var(--box-shadow);
+}
 .techincal {
     padding: 50px;
     background-color:var(--tech-bg-color) ;
@@ -146,7 +152,7 @@ li:hover {
 .car_list {
     display: flex;
     font-size: 16px;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'IBM Plex Sans JP',sans-serif;;
 }
 .car_list h6 {
     width: 40%;
@@ -222,7 +228,7 @@ li:hover {
     text-align: center;
     font-size: 15px;
     font-weight: 600;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'IBM Plex Sans JP',sans-serif;;
 }
 .footer {
     width: 100%;
