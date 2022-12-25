@@ -101,3 +101,11 @@ li:hover {
     height: 180px;
     width: 120px;
 }
+
+
+.animate__animated.animate__fadeInDownBig {
+  --animate-duration: 0.5s;
+}
+.animate__animated.animate__heartBeat {
+    --animate-duration: 1s;
+}

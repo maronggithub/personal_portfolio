@@ -113,15 +113,17 @@ li:hover {
     font-family: 'Chivo Mono', monospace;
 }
 .box {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 10px;
-    box-shadow: 3px 4px 10px var(--box-shadow);
+    box-shadow: 2px 3px 5px var(--box-shadow);
 }
 .techincal {
     padding: 50px;
-    background-color:var(--tech-bg-color) ;
+    /* background-color:var(--tech-bg-color) ; */
+    border:solid 4px var(--title-article-color);
 }
 .info_list h2 {
+    font-family: 'Chivo Mono',monospace;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 35px;
@@ -135,6 +137,11 @@ li:hover {
 .techincal p {
     font-family: 'Chivo Mono',monospace;
 }
+.techincal p.jpn {
+    font-family:'IBM Plex Sans JP',sans-serif ;
+    font-weight: 600;
+    font-size: 16px;
+}
 .tec_list {
     display: flex;
 }
@@ -147,34 +154,44 @@ li:hover {
 }
 .career {
     padding: 50px;
-    background-color: var(--career-bg-color);
+    /* background-color: var(--career-bg-color); */
+    border: solid 4px var(--title-article-color);
+
 }
 .car_list {
     display: flex;
-    font-size: 16px;
-    font-family: 'IBM Plex Sans JP',sans-serif;;
+    font-family: 'IBM Plex Sans JP',sans-serif;
+    font-weight: 600;
 }
 .car_list h6 {
     width: 40%;
     margin-bottom: 70px;
     /* margin-right: 40px; */
-    font-size: 18px;
+    font-size: 16px;
 }
 .car_list p {
     width:60%;
+    font-size: 16px;
     /* margin-left: 100px; */
 }
 .education {
     padding: 50px;
-    background-color: var(--education-bg-color);
+    /* background-color: var(--education-bg-color); */
+    border: solid 4px var(--title-article-color);
+    font-family: 'IBM Plex Sans JP', sans-serif;
+    font-weight: 600;
 }
+/* .education h2 {
+    font-family:'Chivo Mono',monospace;
+    font-weight: 600;
+} */
 .edu_list {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 .edu_list h6{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 .edu_info {
@@ -190,6 +207,7 @@ li:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    
 }
 .expression_pic {
     width: 200px;

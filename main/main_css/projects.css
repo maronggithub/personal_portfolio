@@ -126,9 +126,24 @@ li:hover {
     /* background-color:var(--blue-block-bg-color); */
     /* margin-bottom: 20px; */
     /* justify-content: space-around; */
+    transition: transform 1s ease, opacity 1s linear;
 }
 .flex > * {
     width: 49%;
+}
+.flex:nth-child(odd) {
+    opacity: 0;
+    transform: translateX(-100%);
+    /* animation: comeinleft 1s ease forwards; */
+}
+.flex:nth-child(even) {
+    opacity: 0;
+    transform: translateX(100%);
+    /* animation: comeinright 1s ease forwards; */
+}
+.flex.show {
+    transform: translateX(0);
+    opacity: 1;
 }
 .project_info {
     display: flex;
@@ -246,3 +261,17 @@ li:hover {
     height: 15vh;
     background-color: var(--main-bg-color);
 }
+/* @keyframes comeinleft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes comeinright {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */

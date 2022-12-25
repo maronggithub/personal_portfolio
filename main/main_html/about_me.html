@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main_css/about_me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/eaa60256d3.js" crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
@@ -32,7 +33,7 @@
             
         </div>
         <div class="info_list">
-            <div class="techincal box">
+            <div class="techincal box wow animate__animated animate__fadeInUp ">
                 <h2>Technical Skills</h2>
                 <div class="tec_list">
                     <h6>HTML,CSS:</h6>
@@ -82,14 +83,14 @@
                 </div>
                 <div class="tec_list">
                     <h6>Vue.js:</h6>
-                    <p>勉強中</p>
+                    <p class="jpn">勉強中</p>
                 </div>
                 <div class="tec_list">
                     <h6>React.js:</h6>
-                    <p>１ヶ月勉強したことがある、もう身につけた技術に基づいて頑張って学べば、早く身につけられると思います</p>
+                    <p class="jpn">１ヶ月勉強したことがある、もう身につけた技術に基づいて頑張って学べば、早く身につけられると思います</p>
                 </div>
             </div>
-            <div class="career box">
+            <div class="career box wow animate__animated animate__fadeInUp animate__delay-0.5s">
                 <h2>Career History</h2>
                 <div class="car_list">
                     <h6>データベースエンジニア</h6>
@@ -101,7 +102,7 @@
                     <p>自社が開発したウェフアプリに対して手動でデザインテスト、機能テストを担当しました。</p>
                 </div>
             </div>
-            <div class="education box">
+            <div class="education box wow animate__animated animate__fadeInUp">
                 <h2>Education</h2>
                 <div class="edu_list">
                     <div class="edu_info">
@@ -148,4 +149,8 @@
     <div class="footer"></div>
     
 </body>
+<script src="../main_js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </html>
