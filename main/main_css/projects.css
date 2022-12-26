@@ -38,11 +38,18 @@ body {
     width: 100%;
     height: 15vh;
     display: flex;
+    background-color:var(--main-bg-color);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
+.nav.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px #a2a2a1;
+}
 ul {
     display: flex;
     justify-content: space-between;
@@ -205,6 +212,10 @@ li:hover {
     /* border: 4px solid var(--blue-block-bg-color); */
     box-shadow:2px 3px 15px var(--project-pic-shadow);
     /* background-color: #4B4E5A; */
+    transition: 0.3s ease-in;
+}
+.project_pic:hover {
+    transform: scale(1.1,1.1);
 }
 .project_pic.one{
     /* padding:20px 20px; */
