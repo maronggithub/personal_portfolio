@@ -193,14 +193,14 @@ li:hover {
 .btn_part button:active {
     box-shadow: none;
 }
-.btn_part button.code {
+.btn_part button.codeBtn {
     color:var(--left-button-letter-color);
     /* border: none; */
     background-color:var(--left-button-bg-color);
     border-color: var(--left-button-border-color);
     border: 4px solid ;
 }
-.btn_part button.site {
+.btn_part button.siteBtn {
     color: var(--right-button-letter-color);
     background-color: var(--right-button-bg-color);
     border-color: var(--right-button-border-color);
@@ -219,50 +219,50 @@ li:hover {
 }
 .project_pic.one{
     /* padding:20px 20px; */
-    background-image: url(../../my_projects/No.1_huddle-landing-page-with-alternating-feature-blocks-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.1/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     
 }
 .project_pic.two {
-    background-image: url(../../my_projects/No.2_pricing-component-with-toggle-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.2/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
 }
 .project_pic.three {
-    background-image: url(../../my_projects/No.3_base-apparel-coming-soon-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.3/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .project_pic.four {
-    background-image: url(../../my_projects/No.4_intro-component-with-signup-form-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.4/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .project_pic.five {
-    background-image: url(../../my_projects/No.5_huddle-landing-page-with-single-introductory-section-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.5/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .project_pic.six {
-    background-image: url(../../my_projects/No.6_single-price-grid-component-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.6/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .project_pic.seven {
-    background-image: url(../../my_projects/No.7_four-card-feature-section-master/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.7/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .project_pic.eight {
-    background-image: url(../../my_projects/No.8_3-column-preview-card-component-main/design/desktop-preview.jpg);
+    background-image: url(../../my_projects/No.8/design/desktop-preview.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

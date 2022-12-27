@@ -1,7 +1,25 @@
 const nav = document.getElementsByClassName('nav')
-console.log(nav)
+const home = document.getElementById('home')
+const project = document.getElementById('project')
+const aboutMe = document.getElementById('aboutMe')
+const contact = document.getElementById('contact')
+
+home.addEventListener('click',function() {
+    window.location.href = '../main_html/home.html'
+})
+project.addEventListener('click',function() {
+    window.location.href = '../main_html/projects.html'
+})
+aboutMe.addEventListener('click',function() {
+    window.location.href = '../main_html/about_me.html'
+})
+contact.addEventListener('click',function() {
+    window.location.href = '../main_html/contact.html'
+})
+
+//navigation bar is fiexd when being scrolled
 window.addEventListener('scroll',function () {
-    if (document.documentElement.scrollTop > 20) {
+    if (document.documentElement.scrollTop > 0) {
         nav[0].classList.add("fixed")
 
     }

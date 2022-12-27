@@ -10,20 +10,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Rubik:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Rubik:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Home</title>
 </head>
 <body>
     <div class="nav">
         <ul>
-            <li class="nav_home">Home</li>
-            <li class="nav_project">Projects</li>
-            <li class="nav_me">About Me</li>
-            <li class="nav_contact">Contact</li>
+            <li class="nav_home" id="home">Home</li>
+            <li class="nav_project" id="project">Projects</li>
+            <li class="nav_me" id="aboutMe">About Me</li>
+            <li class="nav_contact" id="contact">Contact</li>
         </ul>
     </div>
     <div class="main_info">
-        <div class="intro">
+        <div class="intro animate__animated animate__fadeInLeft">
             <h1>Hello</h1>
             <h4>I am MA RONG</h4>
             <p>私はプログラマです、現在主にPL/SQL、SQLを使ってデータベースの開発・保守に携わっています。
@@ -32,11 +32,12 @@
                 開発は私にとって、コードを叩くだけでなく、芸術的な創造でもあり、
                 自分のスキルを磨いて、将来もっとクリエイティブな「作品」を作り上げたいと思います。
             </p>
-            <button>About Me</button>
+            <button id="btn">About Me</button>
         </div>
-        <div class="avator"></div>
+        <div class="avator animate__animated animate__fadeInRight"></div>
         
     </div>
 </body>
 <script src="../main_js/nav.js"></script>
+<script src="../main_js/home.js"></script>
 </html>
