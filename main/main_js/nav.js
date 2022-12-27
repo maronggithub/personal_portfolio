@@ -5,7 +5,7 @@ const aboutMe = document.getElementById('aboutMe')
 const contact = document.getElementById('contact')
 
 home.addEventListener('click',function() {
-    window.location.href = '../main_html/home.html'
+    window.location.href = '../main_html/index.html'
 })
 project.addEventListener('click',function() {
     window.location.href = '../main_html/projects.html'
