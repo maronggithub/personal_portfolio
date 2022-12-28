@@ -5,16 +5,16 @@ const aboutMe = document.getElementById('aboutMe')
 const contact = document.getElementById('contact')
 
 home.addEventListener('click',function() {
-    window.location.href = '../main_html/index.html'
+    window.location.href = '/index.html'
 })
 project.addEventListener('click',function() {
-    window.location.href = '../main_html/projects.html'
+    window.location.href = '/main/main_html/projects.html'
 })
 aboutMe.addEventListener('click',function() {
-    window.location.href = '../main_html/about_me.html'
+    window.location.href = '/main/main_html/about_me.html'
 })
 contact.addEventListener('click',function() {
-    window.location.href = '../main_html/contact.html'
+    window.location.href = '/main/main_html/contact.html'
 })
 
 //navigation bar is fiexd when being scrolled
