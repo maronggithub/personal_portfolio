@@ -11,7 +11,9 @@
 ## 開発言語
 HTML,CSS,JavaScript
 # ポートフォリオ制作方法
-ポートフォリオ制作のマインドマップ
+ポートフォリオ制作のマインドマップ　
+
+[PDFファイルをダウンロードする](https://github.com/maronggithub/personal_portfolio/blob/main/document/portfolio.pdf)
 ![mindmap](https://raw.githubusercontent.com/maronggithub/personal_portfolio/main/document/portfolio%EF%BC%88Big%EF%BC%89.jpeg)
 ## UI/UX
  ### ページ外見
