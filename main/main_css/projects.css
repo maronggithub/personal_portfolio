@@ -84,7 +84,7 @@ li:hover {
     color: var(--nav-contact-color);
 }
 .title {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 30px;
     color: var(--title-article-color);
@@ -120,15 +120,16 @@ li:hover {
     background-size: contain;
     /* height: 170px; */
     width: 30%;
-    transform: scale(1.5);
+    /* height: 100%; */
+    /* transform: scale(1.5); */
 }
 .project_part {
-    width: 70%;
+    width: 80%;
     margin: 40px auto 0px auto;
 }
 .flex {
     display: flex;
-    padding: 30px 50px;
+    padding: 30px 30px;
     /* background-color:aliceblue; */
     justify-content: space-around;
     /* background-color:var(--blue-block-bg-color); */
@@ -137,7 +138,7 @@ li:hover {
     transition: transform 1s ease, opacity 1s linear;
 }
 .flex > * {
-    width: 49%;
+    width: 48%;
 }
 .flex:nth-child(odd) {
     opacity: 0;
@@ -172,7 +173,7 @@ li:hover {
     margin-bottom: 30px;
 }
 .project_info p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 60px;
 }

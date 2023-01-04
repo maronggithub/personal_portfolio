@@ -72,7 +72,7 @@ li:hover {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    padding:30px 250px;
+    padding:30px 150px;
 }
 .intro {
     width: 65%;
@@ -88,15 +88,15 @@ li:hover {
 }
 h1 {
     font-size:56px;
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 h4 {
     font-size: 26px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 p {
     font-size: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     line-height: 30px;
     font-weight: 400;
     font-family: 'IBM Plex Sans JP', sans-serif;
@@ -119,7 +119,8 @@ button:active {
 }
 .avator {
     width: 35%;
-    margin-bottom: 200px;
+    height: 100%;
+    /* margin-bottom: 200px; */
     background-image: url(../../avator/avatar.png);
     background-repeat: no-repeat;
     background-position: center center;
