@@ -105,6 +105,11 @@ li:hover {
     line-height: 30px;
     font-family: 'IBM Plex Sans JP',sans-serif;
 }
+strong {
+    font-family:'Chivo Mono',monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
 .title .pic {
     /* position: absolute; */
     background-image: url(../../image/Study.png);
@@ -140,7 +145,7 @@ li:hover {
 }
 .techincal h6 {
     font-family: 'Chivo Mono', monospace;
-    width: 15%;
+    width: 20%;
     font-size: 18px;
     margin-bottom: 10px;
     margin-right: 20px;
@@ -152,17 +157,33 @@ li:hover {
     font-family:'IBM Plex Sans JP',sans-serif ;
     /* font-weight: 600; */
     font-size: 18px;
+    /* margin-left:18px ; */
 }
 .tec_list {
     display: flex;
 }
 .star {
-    width: 85%;
-    margin-left: 40px;
+    width: 80%;
+    /* margin-left: 40px; */
 }
 .star i {
     margin-right: 10px;
     font-size: 18px;
+}
+.qualification_part {
+    margin-top: 30px;
+}
+.qual_list {
+    display: flex;
+}
+.qual_list h6 {
+    font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.year {
+    width: 80%;
+    font-size: 18px;
+    font-family:'IBM Plex Sans JP',sans-serif;
 }
 .career {
     padding: 50px;
