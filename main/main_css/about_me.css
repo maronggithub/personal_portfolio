@@ -191,12 +191,15 @@ strong {
     border: solid 4px var(--title-article-color);
 
 }
-.car_list {
+.car_list,
+.study_list {
     display: flex;
     font-family: 'IBM Plex Sans JP',sans-serif;
     /* font-weight: 600; */
+    margin-bottom: 20px;
 }
-.car_list h6 {
+.car_list h6,
+.study_list h6 {
     width: 40%;
     margin-bottom: 70px;
     /* margin-right: 40px; */
@@ -206,6 +209,15 @@ strong {
     width:60%;
     font-size: 18px;
     /* margin-left: 100px; */
+}
+.study_list .ex_list {
+    width: 60%;
+    /* line-height: 30px; */
+    /* margin-bottom: 10px; */
+}
+.study_list .ex_list p {
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 .education {
     padding: 50px;
