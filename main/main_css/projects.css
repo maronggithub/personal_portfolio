@@ -275,6 +275,12 @@ li:hover {
     background-position: center center;
     background-size: cover;
 }
+.project_pic.ten {
+    background-image: url(../../my_projects/No.10/design/desktop-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 .footer {
     width: 100%;
     height: 15vh;
